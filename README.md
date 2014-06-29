@@ -31,3 +31,7 @@ Trong các script mình có sao lưu các file cấu hình gốc, sử dụng c�
 ## [Hướng dẫn sử dụng OpenStack AIO]
 <iframe width="560" height="315" src="//www.youtube.com/embed/O119UIscdvg" frameborder="0" allowfullscreen></iframe>
 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=O119UIscdvg
+" target="_blank"><img src="http://img.youtube.com/vi/O119UIscdvg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
