@@ -1,6 +1,9 @@
 # Cài đặt & HDSD OpenStack Icehouse AIO
 - Phiên bản: Nhiệt và đam mê. 22/06/2014
-- Người tổng hợp: tu0ng_c0ng và những người bạn.
+- Nhóm thực hiện: Tô Thành Công, Hoàng Đình Quân
+
+# Thông tin phiên bản
+
 
 ## Giới thiệu
 Hướng dẫn này được cung cấp giúp các bạn đã tìm hiểu tổng quan về Cloud Computing (dựa theo định nghĩa trong tài liệu NIST - Cloud Computing) và OpenStack có thể triển khai một cách gọn gàng và đủ tính năng tối thiểu cho mục đích trải nghiệm và tìm hiểu cách sử dụng OpenStack.
@@ -20,7 +23,7 @@ Liên hệ và trao đổi:
     Twitter: twitter.com/tothanhcong
     Facebook: facebook.com/tcvn1985
 
-## [Hướng dẫn cài đặt OpenStack AIO](hd-caidat-openstack-icehouse-aio.md)
+## [Hướng dẫn cài đặt OpenStack AIO](https://github.com/vietstacker/icehouse-aio-ubuntu/blob/master/hd-caidat-openstack-icehouse-aio.md)
 
-## [Hướng dẫn sử dụng OpenStack AIO](hd-sudung-openstack-icehouse-aio.rst)
+## [Hướng dẫn sử dụng OpenStack AIO](https://github.com/vietstacker/icehouse-aio-ubuntu/blob/master/hd-sudung-openstack-icehouse-aio.md)
 
