@@ -1,9 +1,13 @@
 # Cài đặt & HDSD OpenStack Icehouse AIO
-- Phiên bản: Nhiệt và đam mê. 22/06/2014
-- Nhóm thực hiện: Tô Thành Công, Hoàng Đình Quân
+- Phiên bản: Mầm ươm 
+- Nhóm thực hiện: Tô Thành Công, Hoàng Đình Quân, VietStacker
 
 # Thông tin phiên bản
 
+| Ngày tạo	   | Tên Phiên Bản     |  Thông tin phiên bản  | Người thay đổi       |Chú ý               |
+| -------------|----------------|---------------|---------------|-------  |--------------------------------------| 
+| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên Hoàng Đình Quân, Tô Thành Công   |                                       |
+|  | | |          |   N |
 
 ## Giới thiệu
 Hướng dẫn này được cung cấp giúp các bạn đã tìm hiểu tổng quan về Cloud Computing (dựa theo định nghĩa trong tài liệu NIST - Cloud Computing) và OpenStack có thể triển khai một cách gọn gàng và đủ tính năng tối thiểu cho mục đích trải nghiệm và tìm hiểu cách sử dụng OpenStack.
