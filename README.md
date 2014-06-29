@@ -1,6 +1,12 @@
 # Cài đặt & HDSD OpenStack Icehouse AIO
 - Phiên bản: Mầm ươm 
-- Nhóm thực hiện: Tô Thành Công, Hoàng Đình Quân, VietStacker
+- Nhóm thực hiện:
+
+| Họ và Tên        | Nick Skype | Email | 
+|------------------|------------|-------|
+|Tô Thành Công     | tu0ng_c0ng | tcvn1985@gmail.com |
+|Hoàng Đình Quân   | hdquan2014 | d0m0reg00dthing@gmail.com |
+| VietStacker      | vietstack  | vietstack@gmail.com
 
 # Thông tin phiên bản
 
