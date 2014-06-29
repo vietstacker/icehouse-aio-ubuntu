@@ -6,8 +6,8 @@
 
 | Ngày tạo	   | Tên Phiên Bản     |  Thông tin phiên bản  | Người thay đổi       |Chú ý               |
 | -------------|----------------|---------------|---------------|-------  |--------------------------------------| 
-| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên Hoàng Đình Quân, Tô Thành Công   |                                       |
-|  | | |          |   N |
+| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên | Hoàng Đình Quân, Tô Thành Công                             |
+|  | | |          |    |
 
 ## Giới thiệu
 Hướng dẫn này được cung cấp giúp các bạn đã tìm hiểu tổng quan về Cloud Computing (dựa theo định nghĩa trong tài liệu NIST - Cloud Computing) và OpenStack có thể triển khai một cách gọn gàng và đủ tính năng tối thiểu cho mục đích trải nghiệm và tìm hiểu cách sử dụng OpenStack.
