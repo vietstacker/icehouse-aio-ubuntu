@@ -62,7 +62,7 @@ Thực hiện tải gói gile và phân quyền cho các file sau khi tải từ
 
     apt-get install git -y
     git clone https://github.com/vietstacker/icehouse-aio-ubuntu.git
-    cd icehouse-allinone-ubuntu
+    cd icehouse-aio-ubuntu
     chmod +x *.sh
 
 ### 2.0 Update hệ thống và cài đặt các gói bổ trợ
