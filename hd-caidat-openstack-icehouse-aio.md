@@ -153,7 +153,7 @@ Tạo sẵn subnet cho Public Network và Private Network trong teant ADMIN:
     bash creat-network.sh
 
 # III. Chuyển qua hướng dẫn sử dụng dashboard (horizon)
-Truy cập vào dashboard với IP 192.168.1.55/horizon
+Truy cập vào dashboard với IP http://IP_ADDRESS_External/horizon
 
 	User: admin hoặc demo
 	Pass: Welcome123
