@@ -4,9 +4,9 @@
 
 # Thông tin phiên bản
 
-| Ngày tạo	   | Tên Phiên Bản     |  Thông tin phiên bản  | Người thay đổi       |Chú ý               |
-| -------------|----------------|---------------|---------------|-------  |--------------------------------------| 
-| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên | Hoàng Đình Quân <br> Tô Thành Công                             |
+| Ngày tạo	   | Tên Phiên Bản |   Thông tin phiên bản   | Người thay đổi       |               Chú ý               |
+| -------------|---------------|-------------------------| ---------------------|--------------|------------------------| 
+| 30/06/2014   |    Mầm ươm    | Tạo các scritp đầu tiên | Hoàng Đình Quân <br> Tô Thành Công | Tổng hợp lại từ github của Công|
 |  | | |          |    |
 
 ## Giới thiệu
