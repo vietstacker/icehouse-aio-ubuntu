@@ -29,9 +29,8 @@ Trong các script mình có sao lưu các file cấu hình gốc, sử dụng c�
 ## [Hướng dẫn cài đặt OpenStack AIO](https://github.com/vietstacker/icehouse-aio-ubuntu/blob/master/hd-caidat-openstack-icehouse-aio.md)
 
 ## [Hướng dẫn sử dụng OpenStack AIO]
-<iframe width="560" height="315" src="//www.youtube.com/embed/O119UIscdvg" frameborder="0" allowfullscreen></iframe>
 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6lJwvGY1WLk
-" target="_blank"><img src="http://img.youtube.com/vi/6lJwvGY1WLk/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6lJwvGY1WLk/0.jpg)](http://www.youtube.com/watch?v=6lJwvGY1WLk)
+
+
