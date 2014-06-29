@@ -1,6 +1,5 @@
 # Cài đặt & HDSD OpenStack Icehouse AIO
-- Phiên bản: Mầm ươm 
-- Nhóm thực hiện:
+#### Nhóm thực hiện:
 
 | Họ và Tên        | Nick Skype | Email | 
 |------------------|------------|-------|
