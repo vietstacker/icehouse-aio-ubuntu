@@ -7,7 +7,7 @@ MASTER=$brex_address
 
 echo "########## CAI DAT NEUTRON TREN CONTROLLER ##########"
 apt-get -y install neutron-server neutron-plugin-ml2 neutron-plugin-openvswitch-agent \
-openvswitch-datapath-dkms neutron-l3-agent neutron-dhcp-agent
+neutron-l3-agent neutron-dhcp-agent
 
 ######## SAO LUU CAU HINH NEUTRON.CONF CHO CONTROLLER##################"
 echo "########## Sua lai file neutron.conf ##########"

@@ -139,7 +139,7 @@ Cài đặt Neutron Server, ML, L3-agent, DHCP-agent, metadata-agent:
 
 Login vào bằng tài khoản root và di chuyển vào thư mục icehouse-allinone
 
-    cd icehouse-allinone-ubuntu
+    cd icehouse-aio-ubuntu
     bash 8-icehouse-aio-install-neutron.sh
 
 ### 2.9 Cài đặt HORIZON

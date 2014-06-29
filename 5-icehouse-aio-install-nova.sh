@@ -106,7 +106,7 @@ chmod +x /etc/kernel/postinst.d/statoverride
 
 # fix loi libvirtError: internal error: no supported architecture for os type 'hvm'
 echo 'kvm_intel' >> /etc/modules
-
+sleep 10
 echo "########## KHOI DONG LAI NOVA ##########"
 service nova-conductor restart
 service nova-api restart
@@ -118,13 +118,13 @@ service nova-compute restart
 
 sleep 10
 echo "########## KHOI DONG NOVA LAN 2 ##########"
-#service nova-conductor restart
-#service nova-api restart
-#service nova-cert restart
-#service nova-consoleauth restart
-#service nova-scheduler restart
-#service nova-novncproxy restart
-#service nova-compute restart
+service nova-conductor restart
+service nova-api restart
+service nova-cert restart
+service nova-consoleauth restart
+service nova-scheduler restart
+service nova-novncproxy restart
+service nova-compute restart
 
 echo "########## KIEM TRA LAI DICH VU NOVA ##########"
 #sleep 5
