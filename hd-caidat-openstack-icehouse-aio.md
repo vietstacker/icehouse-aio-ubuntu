@@ -61,8 +61,8 @@ Thiết lập cấu hình cho Ubuntu Server 12.04 trong VMware Workstation hoặ
 Thực hiện tải gói gile và phân quyền cho các file sau khi tải từ github về:
 
     apt-get install git -y
-    git clone https://github.com/congto/icehouse-allinone.git
-    cd icehouse-allinone
+    git clone https://github.com/vietstacker/icehouse-aio-ubuntu.git
+    cd icehouse-allinone-ubuntu
     chmod +x *.sh
 
 ### 2.0 Update hệ thống và cài đặt các gói bổ trợ
@@ -70,10 +70,10 @@ Thực hiện tải gói gile và phân quyền cho các file sau khi tải từ
 Thiết lập tên, khai báo file hosts, cấu hình ip address cho các NICs:
 
     bash 0-icehouse-aio-prepare.sh
-   
+    
 Sau khi thực hiện script trên xong, hệ thống sẽ khởi động lại. Lúc này bạn đăng nhập vào hệ thống và di chuyển vào thưc mục icehouse-allinone bằng lệnh:
 
-    cd icehouse-allinone
+    cd icehouse-allinone-ubuntu
 
 ### 2.1 Cài đặt MYSQL và tạo DB cho các thành phần
 
@@ -88,14 +88,6 @@ Cài đặt và cấu hình file keystone.conf:
     bash 2-icehouse-aio-install-keystone.sh
 
 ### 2.3 Khai báo user, role, tenant, endpoint
-
-Thực thi biến môi trường :
-
-    eth0_address=`/sbin/ifconfig eth0 | awk '/inet addr/ {print $2}' | cut -f2 -d ":" `
-    MASTER=$eth0_address
-    TOKEN_PASS=Welcome123
-    export OS_SERVICE_TOKEN=$TOKEN_PASS
-    export OS_SERVICE_ENDPOINT=http://$MASTER:35357/v2.0
 
 Khai báo user, role, teant và endpoint cho các service trong OpenStack:
 
@@ -147,7 +139,7 @@ Cài đặt Neutron Server, ML, L3-agent, DHCP-agent, metadata-agent:
 
 Login vào bằng tài khoản root và di chuyển vào thư mục icehouse-allinone
 
-    cd icehouse-allinone
+    cd icehouse-allinone-ubuntu
     bash 8-icehouse-aio-install-neutron.sh
 
 ### 2.9 Cài đặt HORIZON
@@ -158,7 +150,7 @@ Cài đặt Horizon để cung cấp GUI cho người dùng thao tác với Open
 ### 2.10 Tạo các subnet, router cho tenant
 Tạo sẵn subnet cho Public Network và Private Network trong teant ADMIN:
 
-    bash 99-creat-network.sh
+    bash creat-network.sh
 
 # III. Chuyển qua hướng dẫn sử dụng dashboard (horizon)
 Truy cập vào dashboard với IP 192.168.1.55/horizon
