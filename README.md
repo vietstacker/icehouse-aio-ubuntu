@@ -8,14 +8,14 @@
 |Hoàng Đình Quân   | hdquan2014 | d0m0reg00dthing@gmail.com |
 | VietStacker      | vietstack  | vietstack@gmail.com
 
-# Thông tin phiên bản
+#### Thông tin phiên bản
 
 | Ngày tạo	   | Tên Phiên Bản |   Thông tin phiên bản   | Người thay đổi       |               Chú ý               |
 | -------------|---------------|-------------------------| ---------------------|--------------|------------------------| 
 | 30/06/2014   |    Mầm ươm    | Tạo các scritp đầu tiên | Hoàng Đình Quân <br> Tô Thành Công | Tổng hợp lại từ github của Công|
 |  | | |          |    |
 
-## Giới thiệu
+#### Giới thiệu
 Hướng dẫn này được cung cấp giúp các bạn đã tìm hiểu tổng quan về Cloud Computing (dựa theo định nghĩa trong tài liệu NIST - Cloud Computing) và OpenStack có thể triển khai một cách gọn gàng và đủ tính năng tối thiểu cho mục đích trải nghiệm và tìm hiểu cách sử dụng OpenStack.
 
 Hướng dẫn được triển khai trên môi trường LAB (VMware Workstation), trên 1 máy chủ duy nhất có hỗ trợ công nghệ ảo hóa, x64. Trong phiên bản "Nhiệt & Đam Mê" của hướng dẫn này, mình tham khảo nguồn chính là docs của OpenStack và GOOGLE nên xin phép không trích dẫn lại các link khác ở đây. Một số script mình có chỉnh sửa lại đê tối giản các dòng lệnh và giải thích trong từng script.
