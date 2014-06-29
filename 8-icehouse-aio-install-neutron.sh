@@ -164,5 +164,6 @@ cd /root/
 
 
 echo "########## KIEM TRA NEUTRON (cho 60s)   ##########"
-#sleep 60
+# Can doi neutron khoi dong xong de kiem tra
+sleep 60
 neutron agent-list
