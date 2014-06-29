@@ -73,7 +73,7 @@ Thiết lập tên, khai báo file hosts, cấu hình ip address cho các NICs:
     
 Sau khi thực hiện script trên xong, hệ thống sẽ khởi động lại. Lúc này bạn đăng nhập vào hệ thống và di chuyển vào thưc mục icehouse-allinone bằng lệnh:
 
-    cd icehouse-allinone-ubuntu
+    cd icehouse-aio-ubuntu
 
 ### 2.1 Cài đặt MYSQL và tạo DB cho các thành phần
 
