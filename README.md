@@ -6,7 +6,7 @@
 
 | Ngày tạo	   | Tên Phiên Bản     |  Thông tin phiên bản  | Người thay đổi       |Chú ý               |
 | -------------|----------------|---------------|---------------|-------  |--------------------------------------| 
-| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên | Hoàng Đình Quân, Tô Thành Công                             |
+| 30/06/2014 | Mầm ươm  | Tạo các scritp đầu tiên | Hoàng Đình Quân <br> Tô Thành Công                             |
 |  | | |          |    |
 
 ## Giới thiệu
