@@ -58,6 +58,7 @@ echo "########## Tao may ao ten la vm6969 de kiem tra ##########"
 nova boot vm6969 --image cirros-0.3.2-x86_64 --flavor 1 --security-groups default --nic net-id=$ID_int_net
 
 echo "########## Hoan thanh viec tao may ao ##########"
+sleep 10
 nova list 
 # Tao flavor or example, create a new flavor called m1.custom with an ID of 6, 512 MB of RAM, 5 GB of root disk space, and 1 vCPU:
 
