@@ -10,7 +10,7 @@ echo mysql-server mysql-server/root_password_again password $MYSQL_ADMIN_PASS | 
 # apt-get update
 
 echo "########## Cai dat MYSQL ##########"
-#sleep 3 
+sleep 3 
 apt-get -y install mysql-server python-mysqldb curl expect 
 mysql_install_db
 SECURE_MYSQL=$(expect -c "
@@ -43,7 +43,7 @@ echo "$SECURE_MYSQL"
 apt-get remove --purge -y expect
 
 echo "########## Cau hinh cho MYSQL ##########"
-#sleep 5
+sleep 5
 sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/my.cnf
 #
 sed -i "/bind-address/a\default-storage-engine = innodb\n\
