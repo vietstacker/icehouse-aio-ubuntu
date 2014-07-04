@@ -129,8 +129,8 @@ service nova-compute restart
 echo "########## KIEM TRA LAI DICH VU NOVA ##########"
 sleep 10
 nova-manage service list
-#sleep 3
-#nova-manage service list
+sleep 3
+nova-manage service list
 
 echo "########## KET THUC CAI DAT NOVA ##########"
 
