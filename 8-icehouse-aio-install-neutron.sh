@@ -1,9 +1,5 @@
 #!/bin/bash -ex
-source config.cfg
-
-SERVICE_ID=$(keystone tenant-get "$SERVICE_TENANT_NAME" | awk '$2~/^id/{print $4}')
-brex_address=`/sbin/ifconfig br-ex | awk '/inet addr/ {print $2}' | cut -f2 -d ":"`
-MASTER=$brex_address
+source config-after-neutron.cfg
 
 echo "########## CAI DAT NEUTRON TREN CONTROLLER ##########"
 apt-get -y install neutron-server neutron-plugin-ml2 neutron-plugin-openvswitch-agent \
