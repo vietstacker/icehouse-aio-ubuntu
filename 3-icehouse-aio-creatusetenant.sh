@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 source config.cfg
-export OS_SERVICE_TOKEN="$OS_SERVICE_TOKEN"
+export OS_SERVICE_TOKEN="$TOKEN_PASS"
 export OS_SERVICE_ENDPOINT="http://$MASTER:35357/v2.0"
 
 export SERVICE_ENDPOINT="http://$MASTER:35357/v2.0"
