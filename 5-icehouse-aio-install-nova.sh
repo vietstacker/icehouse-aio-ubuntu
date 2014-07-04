@@ -81,17 +81,17 @@ EOF
 chown nova:nova $controlnova
 
 echo "########## XOA FILE DB MAC DINH ##########"
-#sleep 7
+sleep 7
 rm /var/lib/nova/nova.sqlite
 
 echo "########## DONG BO DB CHO NOVA ##########"
-#sleep 7 
+sleep 7 
 nova-manage db sync
 
 
 echo " "
 echo "########## FIX LOI CHO NOVA ##########"
-#sleep 5
+sleep 5
 dpkg-statoverride --update --add root root 0644 /boot/vmlinuz-$(uname -r)
 
 cat > /etc/kernel/postinst.d/statoverride <<EOF
