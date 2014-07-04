@@ -7,7 +7,7 @@ source config-after-neutron.cfg
 ###################
 echo "########## CAI DAT DASHBOARD ##########"
 ###################
-#sleep 5
+sleep 5
 
 echo "########## Cài đặt Dashboard ##########"
 apt-get -y install openstack-dashboard memcached && dpkg --purge openstack-dashboard-ubuntu-theme
