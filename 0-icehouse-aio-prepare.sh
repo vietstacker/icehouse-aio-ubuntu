@@ -73,7 +73,7 @@ echo "net.ipv4.conf.default.rp_filter=0" >> /etc/sysctl.conf
 sysctl -p
 
 echo "########## Cai dat & cau hinh NTP ##########"
-# sleep 3
+sleep 3
 apt-get install -y ntp
 
 # Update /etc/ntp.conf file
@@ -86,18 +86,18 @@ server 127.127.1.0 \
 fudge 127.127.1.0 stratum 10/g' /etc/ntp.conf
 
 echo "########## Khoi dong lai NTP ##########"
-# sleep 3
+sleep 3
 service ntp restart
 
 
 echo "########## Cai dat RABBITMQ ##########"
-# sleep 3
+sleep 3
 apt-get -y install rabbitmq-server
 
 echo "########## Khai bao mat khau cho RABBITMQ ##########"
 # sleep 3
 rabbitmqctl change_password guest $RABBIT_PASS
 echo "########## Khoi dong lai may ##########"
-# sleep 3
+sleep 3
 
 init 6 
