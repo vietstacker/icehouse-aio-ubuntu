@@ -60,7 +60,7 @@ EOF
 
 ######## SAO LUU CAU HINH ML2 CHO CONTROLLER##################"
 echo "########## Sau file cau hinh cho ml2_conf.ini ##########"
-# sleep 7
+sleep 7
 
 controlML2=/etc/neutron/plugins/ml2/ml2_conf.ini
 test -f $controlML2.orig || cp $controlML2 $controlML2.orig
@@ -95,7 +95,7 @@ EOF
 
 ######## SAO LUU CAU HINH METADATA CHO CONTROLLER##################"
 echo "########## Sua file cau hinh metadata_agent.ini ##########"
-# sleep 7
+sleep 7
 
 metadatafile=/etc/neutron/metadata_agent.ini
 test -f $metadatafile.orig || cp $metadatafile $metadatafile.orig
