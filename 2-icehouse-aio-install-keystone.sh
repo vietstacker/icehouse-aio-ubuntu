@@ -3,7 +3,7 @@
 source config.cfg
 
 echo "##### Cai dat & cau hinh keystone ##### "
-# sleep 3
+sleep 3
 apt-get install keystone -y
 
 #/* Sao luu truoc khi sua file nova.conf
@@ -11,7 +11,7 @@ filekeystone=/etc/keystone/keystone.conf
 test -f $filekeystone.orig || cp $filekeystone $filekeystone.orig
 
 echo " ##### Chen noi dung file /etc/keystone/keystone.conf ##### "
-#sleep 3
+sleep 3
 cat << EOF > $filekeystone
 [DEFAULT]
 admin_token=$SERVICE_PASSWORD
@@ -54,16 +54,16 @@ Distribution = Ubuntu
 EOF
 
 echo " ##### Dong bo cac bang trong DB ##### "
-#sleep 3
+sleep 3
 keystone-manage db_sync
 
 echo "##### Xoa DB mac dinh ##### "
-#sleep 3
+sleep 3
 rm  /var/lib/keystone/keystone.db
 
 echo "##### Khoi dong lai Keystone ##### "
-#service keystone restart
-#sleep 3
+service keystone restart
+sleep 3
 service keystone restart
 
 (crontab -l -u keystone 2>&1 | grep -q token_flush) || \
