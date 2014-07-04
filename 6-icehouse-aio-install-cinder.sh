@@ -8,7 +8,7 @@ vgcreate cinder-volumes /dev/sdb
 
 #
 echo "########## Cai dat cac goi cho CINDER ##########"
-#sleep 3
+sleep 3
 apt-get install -y cinder-api cinder-scheduler cinder-volume iscsitarget open-iscsi iscsitarget-dkms python-cinderclient
 
 
