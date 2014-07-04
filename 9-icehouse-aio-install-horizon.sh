@@ -1,8 +1,8 @@
 #!/bin/bash -ex
-source config.cfg
+source config-after-neutron.cfg
 
-brex_address=`/sbin/ifconfig br-ex | awk '/inet addr/ {print $2}' | cut -f2 -d ":"`
-MASTER=$brex_address
+# brex_address=`/sbin/ifconfig br-ex | awk '/inet addr/ {print $2}' | cut -f2 -d ":"`
+# MASTER=$brex_address
 
 ###################
 echo "########## CAI DAT DASHBOARD ##########"
