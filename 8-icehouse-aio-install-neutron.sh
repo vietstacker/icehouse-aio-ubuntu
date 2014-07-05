@@ -151,12 +151,16 @@ chown root:neutron $controlML2
 
 echo "########## KHOI DONG LAI NEUTRON        ##########"
 sleep 5
-cd /etc/init.d/; for i in $( ls neutron-* ); do sudo service $i restart; done
+for i in $( ls /etc/init.d/neutron-* ); do service `basename $i` restart; done
 
 echo "########## KHOI DONG LAI NEUTRON (lan2) ##########"
 sleep 5
-cd /etc/init.d/; for i in $( ls neutron-* ); do sudo service $i restart; done
-cd /root/
+for i in $( ls /etc/init.d/neutron-* ); do service `basename $i` restart; done
+
+# Them lenh khoi dong dich vu cua NEUTRON moi khi reboot OpenStack de fix loi.
+sed -i "s/exit 0/# exit 0/g" /etc/rc.local
+echo "for i in \$( ls /etc/init.d/neutron-* ); do service \`basename \$i\` restart; done" >> /etc/rc.local
+echo "exit 0" >> /etc/rc.local
 
 
 echo "########## KIEM TRA NEUTRON (cho 60s)   ##########"
