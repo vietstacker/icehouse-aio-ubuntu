@@ -99,5 +99,6 @@ echo "########## Khai bao mat khau cho RABBITMQ ##########"
 rabbitmqctl change_password guest $RABBIT_PASS
 echo "########## Khoi dong lai may ##########"
 sleep 3
-
+service rabbitmq-server restart
+sleep 3
 init 6 
