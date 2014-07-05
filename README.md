@@ -13,6 +13,7 @@
 | -------------|---------------|-------------------------| ---------------------|--------------|------------------------| 
 | 30/06/2014   |    Mầm ươm    | - Tạo các scritp đầu tiên <br> - Sửa lại các script từ repos gốc <br> - Thêm file config.cgf| Hoàng Đình Quân <br> Tô Thành Công | Tổng hợp lại từ github của Công|
 | 05/07/2014   |               | - Bổ sung các lệnh sleep khi cài dịch vụ <br> - Bổ sụng lệnh reset RABBITMQ <br> - Bổ sung file config-after-neutron.cfg |  Tô Thành Công         |    |
+| 21h00 05/07/2014 | | - Bổ sung các lệnh reset neutron vào rc.local | Tô Thành Công | | 
 
 #### Giới thiệu
 Hướng dẫn này được cung cấp giúp các bạn đã tìm hiểu tổng quan về Cloud Computing (dựa theo định nghĩa trong tài liệu NIST - Cloud Computing) và OpenStack có thể triển khai một cách gọn gàng và đủ tính năng tối thiểu cho mục đích trải nghiệm và tìm hiểu cách sử dụng OpenStack.
