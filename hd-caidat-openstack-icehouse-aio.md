@@ -128,7 +128,7 @@ Cài đặt các gói cho CINDER, cấu hình volume group:
 
     bash 6-icehouse-aio-install-cinder.sh
    
-### 2.7 Cài đặt OpenvSwich, cấu hình br-int, br-ex
+### 2.7 Cài đặt OpenvSwitch, cấu hình br-int, br-ex
 
 Cài đặt OpenvSwtich và cấu hình br-int, br-ex cho Ubuntu:
 
