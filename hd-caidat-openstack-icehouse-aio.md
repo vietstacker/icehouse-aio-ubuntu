@@ -3,23 +3,6 @@
 **MỤC LỤC** 
 được tạo bằng [DocToc](http://doctoc.herokuapp.com/)
 
-- [Hướng dẫn cài đặt bằng script OpenStack Icehouse AIO](#user-content-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-b%E1%BA%B1ng-script-openstack-icehouse-aio)
-- [I. Thông tin LAB](#user-content-i-th%C3%B4ng-tin-lab)
-- [II. Các bước cài đặt](#user-content-ii-c%C3%A1c-b%C6%B0%E1%BB%9Bc-c%C3%A0i-%C4%91%E1%BA%B7t)
-	- [1. Cài đặt Ubuntu 12.04 trong Vmware Workstation](#user-content-1-c%C3%A0i-%C4%91%E1%BA%B7t-ubuntu-1204-trong-vmware-workstation)
-	- [2. Thực hiện các script](#user-content-2-th%E1%BB%B1c-hi%E1%BB%87n-c%C3%A1c-script)
-		- [2.0 Update hệ thống và cài đặt các gói bổ trợ](#user-content-20-update-h%E1%BB%87-th%E1%BB%91ng-v%C3%A0-c%C3%A0i-%C4%91%E1%BA%B7t-c%C3%A1c-g%C3%B3i-b%E1%BB%95-tr%E1%BB%A3)
-		- [2.1 Cài đặt MYSQL và tạo DB cho các thành phần](#user-content-21-c%C3%A0i-%C4%91%E1%BA%B7t-mysql-v%C3%A0-t%E1%BA%A1o-db-cho-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n)
-		- [2.2 Cài đặt KEYSTONE](#user-content-22-c%C3%A0i-%C4%91%E1%BA%B7t-keystone)
-		- [2.3 Khai báo user, role, tenant, endpoint](#user-content-23-khai-b%C3%A1o-user-role-tenant-endpoint)
-		- [2.4 Cài đặt GLANCE](#user-content-24-c%C3%A0i-%C4%91%E1%BA%B7t-glance)
-		- [2.5 Cài đặt NOVA và kiểm tra hoạt động](#user-content-25-c%C3%A0i-%C4%91%E1%BA%B7t-nova-v%C3%A0-ki%E1%BB%83m-tra-ho%E1%BA%A1t-%C4%91%E1%BB%99ng)
-		- [2.6 Cài đặt CINDER](#user-content-26-c%C3%A0i-%C4%91%E1%BA%B7t-cinder)
-		- [2.7 Cài đặt OpenvSwich, cấu hình br-int, br-ex](#user-content-27-c%C3%A0i-%C4%91%E1%BA%B7t-openvswich-c%E1%BA%A5u-h%C3%ACnh-br-int-br-ex)
-		- [2.8 Cài đặt NEUTRON](#user-content-28-c%C3%A0i-%C4%91%E1%BA%B7t-neutron)
-		- [2.9 Cài đặt HORIZON](#user-content-29-c%C3%A0i-%C4%91%E1%BA%B7t-horizon)
-		- [2.10 Tạo các subnet, router cho tenant](#user-content-210-t%E1%BA%A1o-c%C3%A1c-subnet-router-cho-tenant)
-- [III. Chuyển qua hướng dẫn sử dụng dashboard (horizon)](#user-content-iii-chuy%E1%BB%83n-qua-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-dashboard-horizon)
 
 # I. Thông tin LAB
 - Cài đặt OpenStack Icehouse trên Ubuntu 12.04, môi trường giả lập vmware-workstation
