@@ -3,7 +3,6 @@
 source config.cfg
 export OS_SERVICE_TOKEN="$TOKEN_PASS"
 export OS_SERVICE_ENDPOINT="http://$MASTER:35357/v2.0"
-
 export SERVICE_ENDPOINT="http://$MASTER:35357/v2.0"
 
 get_id () {
@@ -132,6 +131,7 @@ chmod +x admin-openrc.sh
 
 sleep 5
 echo "########## Thuc thi bien moi truong ##########"
+source admin-openrc.sh
 cat  admin-openrc.sh >> /etc/profile
 cp  admin-openrc.sh /root/admin-openrc.sh
 
