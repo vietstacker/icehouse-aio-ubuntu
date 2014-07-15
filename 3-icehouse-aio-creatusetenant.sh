@@ -143,5 +143,5 @@ cp  admin-openrc.sh /root/admin-openrc.sh
 echo "########## Hoan thanh cai dat keystone ##########"
 
 #echo "#################### Kiem tra bien moi truong ##################"
-sleep 5
-keystone user-list
+# sleep 5
+# keystone user-list
