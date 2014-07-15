@@ -45,6 +45,29 @@ Thiết lập cấu hình cho Ubuntu Server 12.04 trong VMware Workstation hoặ
 | NIC 1 (eth0) | 192.168.1.xxx  | 255.255.255.0 | 192.168.1.1   | 8.8.8.8 | Bridge trong VMware Workstation      |
 | NIC 2 (eth1) | 192.168.10.xxx | 255.255.255.0 |    NULL       |   NULL  | Dùng VMnet4 trong Vmware Workstation |
 
+<table>
+  <tr>
+    <th rowspan="2"></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 - Mật khẩu cho tất cả các dịch vụ là Welcome123
 - Cài đặt với quyền root
 
@@ -72,11 +95,13 @@ Thiết lập tên, khai báo file hosts, cấu hình ip address cho các NICs:
 
     bash 0-icehouse-aio-prepare.sh
     
-Sau khi thực hiện script trên xong, hệ thống sẽ khởi động lại. Lúc này bạn đăng nhập vào hệ thống và di chuyển vào thưc mục icehouse-allinone bằng lệnh:
-
-    cd icehouse-aio-ubuntu
+Sau khi thực hiện script trên xong, hệ thống sẽ khởi động lại. 
 
 ### 2.1 Cài đặt MYSQL và tạo DB cho các thành phần
+
+Lúc này bạn đăng nhập vào hệ thống và di chuyển vào thưc mục icehouse-allinone bằng lệnh:
+
+    cd icehouse-aio-ubuntu
 
 Cài đặt MYSQL, tạo DB cho Keystone, Glance, Nova, Neutron:
 

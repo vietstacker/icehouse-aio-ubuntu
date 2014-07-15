@@ -44,7 +44,7 @@ vncserver_proxyclient_address = $MASTER
 auth_strategy = keystone
 novncproxy_base_url = http://$MASTER:6080/vnc_auto.html
 
-# Tung dong Start VM khi reboot OpenStack
+# Tu dong Start VM khi reboot OpenStack
 resume_guests_state_on_host_boot=True
 
 #Cho phep dat password cho Instance khi khoi tao
