@@ -157,7 +157,7 @@ Cài đặt Horizon để cung cấp GUI cho người dùng thao tác với Open
 ### 2.10 Tạo các subnet, router cho tenant
 Tạo sẵn subnet cho Public Network và Private Network trong teant ADMIN:
 
-    bash creat-network.sh
+    bash create-network.sh
 
 # III. Chuyển qua hướng dẫn sử dụng dashboard (horizon)
 Truy cập vào dashboard với IP http://IP_ADDRESS_External/horizon

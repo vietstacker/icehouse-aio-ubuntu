@@ -72,8 +72,9 @@ echo '@hourly /usr/bin/keystone-manage token_flush >/var/log/keystone/keystone-t
 export OS_SERVICE_TOKEN=$TOKEN_PASS
 export OS_SERVICE_ENDPOINT=http://$MASTER:35357/v2.0
 
-echo " ##### Kiem tra keystone sau khi khai bao bien moi truong ##### "
+echo "##### Kiem tra keystone sau khi khai bao bien moi truong ##### "
 keystone user-list
 sleep 3
 
+echo "##### HOAN THANH VIEC CAI KEYSTONE #####"
 
