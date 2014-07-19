@@ -62,6 +62,8 @@ Thiết lập cấu hình cho Ubuntu Server 12.04 trong VMware Workstation hoặ
 
 Thực hiện tải gói gile và phân quyền cho các file sau khi tải từ github về:
 
+`apt-get update`
+
     apt-get install git -y
 	
     git clone https://github.com/vietstacker/icehouse-aio-ubuntu.git
