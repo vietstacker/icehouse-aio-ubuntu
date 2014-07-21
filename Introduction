@@ -1,6 +1,16 @@
-This guide will help you have an overview of Cloud Computing(based on the definitions in NIST-Cloud Computing) and Openstack
+This guide will help you have an overview of Cloud Computing (based on the definitions in NIST-Cloud Computing) and Openstack
 so that you can deploy Openstack in the proper way with sufficient features for the purpose of experience and learning.
 
-The project is deployed on LAB environment(VMware Workstation), on a single host which has the support of 
+The project is deployed on LAB environment (VMware Workstation), on a single host which has the support of 
 virtualization technology x86. In the "Heat and Passion" version of this project, i sourced the docs of Openstack and Google
-so i would not cite the links here. In the scripts, i made some modifications to simplify the command lines and explanations as well 
+so i would not cite the links here. In the scripts, i made some modifications to simplify the command lines and explanations as well.
+
+According to the Openstack docs, if we use Neutron for Networking the standard model will have 3 nodes (Controller,Compute,Network).
+Since some of you do not have enough resources to deploy, others want to join developing some projects or research the options
+for configurations so i decided to sum up this tutorial over a single node (a single host)
+
+There are 6 basic services in this version of tutorial including: KEYSTONE, GLANCE, NOVA, NEUTRON, CINDER and HORIZON. 
+In the next versions, i will complement the other services after successful testing. 
+
+In the scripts, i made the backup-s of original configurations. I also used the commands of string manipulation, permission, 
+variable declaration, etc. to implement the configuration of Openstack. You can reference into each scripts to get more details.
