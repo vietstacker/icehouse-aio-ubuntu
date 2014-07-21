@@ -1,4 +1,6 @@
-This guide will help you have an overview of Cloud Computing ( based on the definitions in NIST-Cloud Computing) and Openstack
+This guide will help you have an overview of Cloud Computing(based on the definitions in NIST-Cloud Computing) and Openstack
 so that you can deploy Openstack in the proper way with sufficient features for the purpose of experience and learning.
 
-
+The project is deployed on LAB environment(VMware Workstation), on a single host which has the support of 
+virtualization technology x86. In the "Heat and Passion" version of this project, i sourced the docs of Openstack and Google
+so i would not cite the links here. In the scripts, i made some modifications to simplify the command lines and explanations as well 
