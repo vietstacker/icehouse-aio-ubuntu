@@ -1,3 +1,12 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Cài đặt & HDSD OpenStack Icehouse AIO](#user-content-c%C3%A0i-%C4%91%E1%BA%B7t--hdsd-openstack-icehouse-aio)
+			- [Nhóm thực hiện:](#user-content-nh%C3%B3m-th%E1%BB%B1c-hi%E1%BB%87n)
+			- [Thông tin phiên bản](#user-content-th%C3%B4ng-tin-phi%C3%AAn-b%E1%BA%A3n)
+			- [Giới thiệu](#user-content-gi%E1%BB%9Bi-thi%E1%BB%87u)
+	- [Hướng dẫn cài đặt OpenStack AIO](#user-content-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%B7t-openstack-aio)
+	- [[Hướng dẫn sử dụng OpenStack AIO]](#user-content-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-openstack-aio)
+
 # Cài đặt & HDSD OpenStack Icehouse AIO
 #### Nhóm thực hiện:
 
